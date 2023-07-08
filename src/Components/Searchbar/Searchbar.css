@@ -1,0 +1,13 @@
+.inputsearch {
+  border-radius: 10px;
+  border: 2px solid black ;
+  margin-top:20px;
+  margin-right: 10px;
+  padding: 10px;
+  width: 220px;
+  height: 40px;
+}
+
+.searchBar {
+  text-align: right;
+}

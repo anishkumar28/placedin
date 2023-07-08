@@ -1,0 +1,20 @@
+.metrics_container {
+  
+
+}
+
+.metrics_img {
+  height: 48px;
+  width: 53px;
+  
+}
+
+.metrics_img:hover {
+  border-radius: 15px;
+  border: 2px solid black;
+  
+}
+
+.metrics_text {
+
+}

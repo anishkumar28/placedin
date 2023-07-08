@@ -1,0 +1,190 @@
+.headContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 30px;
+  margin-left: 50px;
+}
+
+h3 {
+  font-family:'Times New Roman', Times, serif;
+  font-size: 32px;
+  height: 30px;
+  margin: auto;
+  margin-top: 1px;
+}
+
+
+.wishList {
+    display: flex;
+    flex-flow:nowrap;
+    flex-direction: column;
+    border-radius: 3px;
+    border: 3px solid black;
+    padding: 10px;
+    width: 200px;
+    height: 30px;
+    margin-left: 15px;
+    background-color: white;
+}
+
+.wishList_add_icon {
+  
+  padding: 0;
+  margin-left: auto;
+  margin-right: 0;
+
+}
+
+#wishList_add_icon img {
+  border: 1px solid black;
+}
+
+
+.applied {
+  display: flex;
+  flex-flow: nowrap;
+  border-radius: 3px;
+  border: 3px solid black;
+  padding: 10px;
+  width: 200px;
+  height: 30px;
+  margin-left: 15px;
+  background-color: white;
+}
+
+.applied_add_icon {
+  padding: 0;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+#applied_add_icon img {
+  border: 1px solid;
+  
+}
+
+
+
+.interview {
+  display: flex;
+  flex-flow: nowrap;
+  border-radius: 3px;
+  border: 3px solid black;
+  padding: 10px;
+  width: 200px;
+  height: 30px;
+  margin-left: 15px;
+  background-color: white;
+}
+
+.applied_add_icon {
+  padding: 0;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+#interview_add_icon img {
+  border: 1px solid black; 
+}
+
+
+.offer {
+  display: flex;
+  flex-flow: nowrap;
+  border-radius: 3px;
+  border: 3px solid black;
+  padding: 10px;
+  width: 200px;
+  height: 30px;
+  margin-left: 15px;
+  background-color: white;
+}
+
+.offer_add_icon {
+  padding: 0;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+#offer_add_icon img {
+  border: 1px solid black;
+  
+}
+
+
+
+.rejected {
+  display: flex;
+  flex-flow: nowrap;
+  border-radius: 3px;
+  border: 3px solid black;
+  padding: 10px;
+  width: 200px;
+  height: 30px;
+  margin-left: 15px;
+  background-color: white;
+}
+
+.rejected_add_icon {
+  padding: 0;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+#rejected_add_icon img {
+  border: 1px solid black;
+  
+}
+
+
+
+img {
+  height: 32px;
+  width: 32px;
+  border-radius: 4px;
+  border: none;
+  align-self: center;
+  color: black;
+  background-color: black;
+  
+}
+
+.plusIcon:hover {
+  background-color: rgb(164, 12, 136);
+}
+
+.interview_image_container:hover {
+
+  transform:rotate(40deg);
+
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: #0b0423;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wishlist_droppable {
+  width: 50px;
+  min-height: fit-content;
+  margin: 20px;
+  border: 2px dashed #fff;
+  align-items: center;
+  cursor: grab;
+}
+
+.list {
+  background: red;
+  height: 60px;
+  margin: 30px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  cursor: grab;
+}
+

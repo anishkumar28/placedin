@@ -1,0 +1,47 @@
+.sidebar {
+  display:inline-flex;
+  flex-direction: column;
+  gap: 40px;
+  height: 180px;
+  width: 150px;
+  background-color: white;
+}
+
+.sidebar img{
+  cursor: pointer;
+  background-color: white;
+  border: none;
+}
+
+.sidebar_list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  height: 0;
+  transition: 200ms;
+}
+
+.sidebar_list_active {
+  height: 300px;
+}
+
+.sidebar_list_item {
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  list-style: none;
+}
+
+.logo_container {
+  height: 120px;
+  width: 135px;
+}
+
+.logo {
+  height: 80%;
+  width:100%;
+  margin: 8px 8px;
+}
+
+
